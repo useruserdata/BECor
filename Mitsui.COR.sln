@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Presentation", "01. Presentation", "{D4C9EB48-F3F4-4CD4-ACBF-3A6ED21534EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Console", "02. Console", "{B81DC0A3-3D30-4406-8C04-F22E22C46776}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Infrastructure", "03. Infrastructure", "{8B96C884-3DA2-4864-A32E-98E26D127CFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Application", "04. Application", "{B9139E96-82C7-46D6-BFEE-84268CDD8889}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Common", "05. Common", "{42FF9F61-21CA-484F-8D51-AD0B7ED7FAAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Entity", "06. Entity", "{126FCFE4-AA84-4A90-88F2-728FB08D73CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Test", "07. Test", "{57C159F3-B571-45DB-B418-8A678A7C9400}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mitsui.Common", "Mitsui.COR\Mitsui.Common\Mitsui.Common.csproj", "{2EE32542-03EE-411D-B9F6-3078C2880951}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mitsui.Entity", "Mitsui.COR\Mitsui.Entity\Mitsui.Entity.csproj", "{0AE6D4B2-74C0-44B2-8E35-3186B4E3DCEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mitsui.Infrastructure", "Mitsui.COR\Mitsui.Infrastructure\Mitsui.Infrastructure.csproj", "{A6EB0679-CC33-4887-93B4-008D29358CBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mitsui.Persistance", "Mitsui.COR\Mitsui.Persistance\Mitsui.Persistance.csproj", "{C62A3FA0-B38A-4A5D-B12B-58A5C9853EAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mitsui.Application", "Mitsui.COR\Mitsui.Application\Mitsui.Application.csproj", "{585C5467-E4FF-4313-8204-B054D9256DB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mitsui.Web.API.Core", "Mitsui.COR\Mitsui.Web.API.Core\Mitsui.Web.API.Core.csproj", "{39F4A943-2328-407D-8216-817F149C8C37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EE32542-03EE-411D-B9F6-3078C2880951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE32542-03EE-411D-B9F6-3078C2880951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE32542-03EE-411D-B9F6-3078C2880951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE32542-03EE-411D-B9F6-3078C2880951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE6D4B2-74C0-44B2-8E35-3186B4E3DCEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE6D4B2-74C0-44B2-8E35-3186B4E3DCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE6D4B2-74C0-44B2-8E35-3186B4E3DCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE6D4B2-74C0-44B2-8E35-3186B4E3DCEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6EB0679-CC33-4887-93B4-008D29358CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EB0679-CC33-4887-93B4-008D29358CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EB0679-CC33-4887-93B4-008D29358CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EB0679-CC33-4887-93B4-008D29358CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C62A3FA0-B38A-4A5D-B12B-58A5C9853EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62A3FA0-B38A-4A5D-B12B-58A5C9853EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C62A3FA0-B38A-4A5D-B12B-58A5C9853EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C62A3FA0-B38A-4A5D-B12B-58A5C9853EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585C5467-E4FF-4313-8204-B054D9256DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585C5467-E4FF-4313-8204-B054D9256DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585C5467-E4FF-4313-8204-B054D9256DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585C5467-E4FF-4313-8204-B054D9256DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F4A943-2328-407D-8216-817F149C8C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F4A943-2328-407D-8216-817F149C8C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F4A943-2328-407D-8216-817F149C8C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F4A943-2328-407D-8216-817F149C8C37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EE32542-03EE-411D-B9F6-3078C2880951} = {42FF9F61-21CA-484F-8D51-AD0B7ED7FAAB}
+		{0AE6D4B2-74C0-44B2-8E35-3186B4E3DCEA} = {126FCFE4-AA84-4A90-88F2-728FB08D73CE}
+		{A6EB0679-CC33-4887-93B4-008D29358CBF} = {8B96C884-3DA2-4864-A32E-98E26D127CFC}
+		{C62A3FA0-B38A-4A5D-B12B-58A5C9853EAA} = {8B96C884-3DA2-4864-A32E-98E26D127CFC}
+		{585C5467-E4FF-4313-8204-B054D9256DB5} = {B9139E96-82C7-46D6-BFEE-84268CDD8889}
+		{39F4A943-2328-407D-8216-817F149C8C37} = {D4C9EB48-F3F4-4CD4-ACBF-3A6ED21534EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC661738-278F-444B-82BE-BD4013D253E6}
+	EndGlobalSection
+EndGlobal
